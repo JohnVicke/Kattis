@@ -1,0 +1,1 @@
+print(int(sum([((n-n%10)/10)**(int(n%10)) for n in list([int(input()) for i in range(int(input()))])])))
